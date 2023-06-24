@@ -1,0 +1,14 @@
+.mainBody{
+    /* margin: -10px; */
+    width: 100%;
+    /* background-color: rgb(228, 125, 125); */
+}
+.image{
+    height: 100 ;
+    width: 30%;
+    /* border: 2px solid black; */
+    object-fit: fill;
+}
+img{
+
+}

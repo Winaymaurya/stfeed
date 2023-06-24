@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&family=Raleway:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.mainBody{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 16px;
+    display: flex;
+    /* font-family: 'Rajdhani', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+  
+}
+.content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 20px;
+    background-image: linear-gradient(to right, #cbd0fb, #d1d7fb, #d8defb, #dfe5fb, #e7ecfa, #ecf0fa, #f1f3fa, #f6f7fa, #f8f9fb, #fbfbfc, #fdfdfe, #ffffff);
+}
+.aboutc{
+    background-image: linear-gradient(to left, #cbd0fb, #d1d7fb, #d8defb, #dfe5fb, #e7ecfa, #ecf0fa, #f1f3fa, #f6f7fa, #f8f9fb, #fbfbfc, #fdfdfe, #ffffff);
+}
+.welcome , .intro{
+    font-size: 20px;
+    padding: 10px 3px;
+}
+.feedgrow{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 10px 3px;
+}
+.heading{
+    font-size: 25px;
+    padding: 10px 3px;
+}
+
+
+
+   /* imgage box */
+   .image{
+       width: 50%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       overflow: hidden;
+       /* padding: 10px 20px; */
+       margin-right: 20px;
+   }
+    img{
+       /* width: 200px; */
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    opacity: .9;
+   }
