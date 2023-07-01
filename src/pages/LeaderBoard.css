@@ -1,0 +1,28 @@
+.mainlead{
+    /* background-image: url("https://img.freepik.com/free-vector/employee-appreciation-concept-illustration_114360-16448.jpg?size=626&ext=jpg"); */
+    margin: 5px;
+    width: 99%;
+    /* background-color: rgba(231, 192, 192, 0.573); */
+    height: 98vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+}
+.leadheading{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-size: 27px;
+}
+.lead {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 18px;
+}
+.leadhead{
+    font-style: bold;
+    font-size: 25px;
+}

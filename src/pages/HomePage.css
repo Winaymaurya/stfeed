@@ -9,6 +9,7 @@
     color: black;
     font-size: 16px;
     display: flex;
+    justify-content: space-between;
     /* font-family: 'Rajdhani', sans-serif; */
     font-family: 'Raleway', sans-serif;
   
@@ -57,4 +58,47 @@
     object-fit: cover;
     background-position: center;
     opacity: .9;
+   }
+
+   .button1 {
+    margin: 15px 9px;
+    display: inline-block;
+    border-radius: 7px;
+    border: none;
+    background: #1875FF;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    font-size: 14px;
+    font-weight:700;
+    box-shadow: 0px 10px 16px -11px #1875FF;
+    width: 10em;
+    padding: 1em;
+    transition: all 0.4s;
+    cursor: pointer;
+   }
+   
+   .button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+   }
+   
+   .button1 span:after {
+    content: 'for free';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+   }
+   
+   .button1:hover span {
+    padding-right: 3.55em;
+   }
+   
+   .button1:hover span:after {
+    opacity: 4;
+    right: 0;
    }

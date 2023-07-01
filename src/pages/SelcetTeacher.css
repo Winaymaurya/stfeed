@@ -1,0 +1,59 @@
+.teacherCont{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-vector/selecting-team-concept-illustration_114360-5265.jpg?size=626&ext=jpg");
+    background-image: url("https://img.freepik.com/free-vector/woman-choosing-dates-calendar-appointment-booking_23-2148552956.jpg?size=626&ext=jpg");
+    background-image: linear-gradient(to right top, #c8adf9, #c3bafb, #c1c5fa, #c4cff7, #ccd8f2, #ccd8f1, #cbd7ef, #cbd7ee, #c0cef0, #b8c4f2, #b3baf2, #b0aff2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: fixed;
+}
+   
+.navbar{
+    /* border-bottom: 2px solid  rgb(255, 234, 112); */
+    min-width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    font-family: 'Raleway', sans-serif;
+
+  
+  }
+  ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  } 
+  ul li a{
+    padding: 2px 20px;
+    color: rgb(244, 240, 240);
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+  
+  }
+  /* ul li a:hover{
+    text-decoration: overline;
+    color: aqua;
+  } */
+  
+  ul li a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background: rgb(88, 208, 235);
+    position: absolute;
+    left: 0px;
+     bottom: -1px;
+  transition: .5s;
+  
+  }
+  ul li a:hover::after{
+    width: 100%;
+  }

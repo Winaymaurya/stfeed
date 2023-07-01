@@ -1,11 +1,14 @@
 import React from 'react'
 import './HomePage.css'
 import Navbar from '../component/layout/navbar'
-import { Button } from '../component/layout/Button'
-
+import {useNavigate} from 'react-router-dom'
 
 
 const HomePage = () => {
+  const navigate=useNavigate()
+  const handle=()=>{
+    navigate("/AfterStudentLogin")
+  }
   return (
     <>
     <Navbar/>
@@ -17,12 +20,12 @@ const HomePage = () => {
           <p className="intro">Platform that connect students with the teachers to solve each other problems and Grow Together</p>
           <div className="buttons">
             
-          <Button btnName="Login"/>
-          <Button btnName="Register"/>
+          <button className="button1"  onClick={handle} ><span>Login</span></button>
+          <button className="button1"  onClick={handle} ><span>Register</span></button>
        
           </div>
         </div>
-        <div className="image">
+        <div className="image" onClick={handle}>
            <img src="https://img.freepik.com/free-vector/online-review-concept-illustration_114360-1398.jpg?size=626&ext=jpg" alt="" />
         </div>
     </div>
@@ -42,7 +45,7 @@ const HomePage = () => {
            <img src="https://img.freepik.com/free-vector/flat-design-illustration-customer-support_23-2148887720.jpg?size=626&ext=jpg" alt="" />
         </div>
         </div>
-    </>
+       </>
   )
 }
 

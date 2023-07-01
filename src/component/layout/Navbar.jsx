@@ -6,13 +6,13 @@ const Navbar = () => {
     <>
     <details>
   <summary></summary>
-  <nav class="menu">
+  <div className="menu">
     <AnchorLink href="#home">Home</AnchorLink>
     <AnchorLink href="#about">About</AnchorLink>
     {/* <a href="#link">Work</a> */}
-    <AnchorLink href="#link">Links</AnchorLink>
     <AnchorLink href="#contact">Contact</AnchorLink>
-  </nav>
+    <AnchorLink href="#link">Links</AnchorLink>
+  </div>
 </details>
     </>
   )

@@ -60,7 +60,7 @@
     content: "";
   }
   .menu {
-    height: 0;
+    height:200px;
     width: fit-content;
     border-radius: var(--cornerRad);
     background-color: var(--primColor);

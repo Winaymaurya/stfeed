@@ -1,14 +1,54 @@
-.mainBody{
-    /* margin: -10px; */
+.header{
+    background-color: rgb(101, 157, 241);
+    color: white;
+    padding: 10px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px 10px black;
+    position: fixed;
     width: 100%;
-    /* background-color: rgb(228, 125, 125); */
+    z-index: 3;
 }
-.image{
-    height: 100 ;
-    width: 30%;
-    /* border: 2px solid black; */
-    object-fit: fill;
+.maincont{
+    /* height: 98vh; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px;
+  
 }
-img{
 
+.quesimg{
+    background-image: url("https://img.freepik.com/free-vector/curiosity-search-concept-illustration_114360-11031.jpg?size=626&ext=jpg");
+    height: 100vh;
+    width: 35%;
+    background-position: center;
+    position: fixed;
+}
+.question{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-end;
+    margin-top: 65px;
+}
+.questions{
+    /* border: 2px solid black; */
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.ques{
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.centerQues{
+    width: 45%;
 }

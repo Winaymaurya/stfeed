@@ -1,0 +1,27 @@
+.studentProfile{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
+}
+.img11{
+    width: 140px;
+    height: 140px;
+    /* background-color: black; */
+    overflow: hidden;
+}
+.img11 img{
+    width: 130px;
+    height: 150px;
+}
+.sdata{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(250, 236, 238, 0.811);
+}
+subProfile{
+    width: 300px;
+}
+.btn{
+    font-size: 13px;
+    
+}

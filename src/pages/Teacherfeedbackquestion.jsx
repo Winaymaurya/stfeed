@@ -1,15 +1,46 @@
 import React from 'react'
+import Question from '../component/layout/question'
+import Questionmcq from '../component/layout/Questionmcq'
 import './Teacherfeedbackquestion.css'
 const Teacherfeedbackquestion = () => {
-  return (
-    <div className="mainBody">
-        <div className="image">
-           <img src="https://img.freepik.com/free-vector/organic-flat-people-asking-questions-illustration_23-2148906283.jpg?size=626&ext=jpg" alt="" />
+  return (<>
+ 
+    <div className="header">
+     <h4> Answer the foloowing questions Corectetly </h4>
+    </div>
+    <div className="maincont">
+        {/* <div className="questions">
+          <div className="ques"> <Question/> </div>
+          <div className="ques"> <Question/></div>
         </div>
         <div className="questions">
-
+        <div className="centerQues">
+          <Question/>
+          </div>
         </div>
+        <div className="questions">
+          <div className="ques"> <Question/></div>
+          <div className="ques"> <Question/></div>
+        </div>
+        <div className="questions">
+        <div className="centerQues">
+          <Question/>
+          </div>
+        </div> */}
+        <div className="quesimg">
+       
+        </div>
+        <div className="question">
+          <Question/>
+          <Question/>
+          <Questionmcq/>
+          <Question/>
+          <Question/>
+          <Question/>
+          </div> 
+                 
     </div>
+    </>
     )
 }
 

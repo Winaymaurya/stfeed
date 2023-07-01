@@ -1,0 +1,141 @@
+.mainProile111{
+    /* border: 2px solid blue; */
+    margin: 21px;
+    width: 96%;
+    height: 92vh;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 590;
+    background-color: rgb(230, 227, 239);
+}
+.subProfile1{
+    width: 30%;
+    height: 95%;
+    margin: 12px;
+}
+.imgdata {
+    height: 60%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 15px;
+    background-color: white;
+}
+.teacherimg{
+width: 45%;
+height: 100px;
+margin: 10px;
+overflow: hidden;
+display: flex;
+justify-content: center;
+
+}
+.teacherimg img{
+ width: 150px;
+ height: 110px;
+}
+.teachername{
+    margin: 10px 1px;
+}
+.branch{
+    margin-bottom: 7px;
+    font-size: 15px;
+}
+.info{
+    font-size: 13px;
+    text-align: center;
+}
+.btn{
+    padding: 5px;
+    margin: 3px;
+    background-color: rgb(109, 113, 243);
+    color: white;
+    border: none;
+    letter-spacing: 1.5px;
+    box-shadow: 0px 1px 2px 1px  black;
+    transition: .3s;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(68, 90, 234);
+    transform: translateY(2px);
+    box-shadow: none;
+}
+.links{
+    /* border: 2px solid black; */
+    height: 33%;
+    margin: 10px;
+    background-color: #fff;
+    padding: 0px 17px;
+}
+.link{
+    border-bottom: 1px solid black;
+    padding: 3px 0px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.subProfile2{
+    width: 65%;
+    height: 95%;
+    margin: 12px;
+    /* border: 2px solid green; */
+    display: flex;
+}
+.rankings{
+    margin: 8px;
+    width: 50%;
+    height: 96%;
+    padding: 0px 7px;
+    /* display: flex; */
+    background-color: rgba(255, 255, 255, 0.998);
+    
+
+
+}
+.rankings h4{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.662);
+    padding: 4px;
+    text-align: center;
+}
+.rank{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 4px;
+}
+#final{
+    font-weight: 700;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.subdata{
+    margin: 8px;
+    width: 45%;
+    height: 96%;
+    /* border: 2px solid rgb(212, 39, 195); */
+}
+.personaldetail{
+    height: 45%;
+    /* margin: 10px 1px; */
+}
+.personaldetail img{
+    width: 355px;
+    height: 245px;
+}
+.graph{
+    height: 51%;
+ margin-top: 15px;
+}
+.graph img{
+    height: 277px;
+    width: 355px;
+}
