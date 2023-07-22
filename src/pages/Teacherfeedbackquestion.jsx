@@ -1,5 +1,5 @@
 import React from 'react'
-import Question from '../component/layout/question'
+import Question from "../component/layout/Question"
 import Questionmcq from '../component/layout/Questionmcq'
 import './Teacherfeedbackquestion.css'
 const Teacherfeedbackquestion = () => {
