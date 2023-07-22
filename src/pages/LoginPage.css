@@ -1,0 +1,96 @@
+button {
+  /* Your default button styles */
+  background-color: #f0f0f0;
+  color: black;
+}
+
+button.active {
+  background-color: #1875ff;
+  /* Styles for the active button */
+  outline: none;
+  font-weight: bold;
+  border: none;
+  color: white;
+}
+
+.main {
+  background-image: linear-gradient(
+    to right,
+    #cbd0fb,
+    #d1d7fb,
+    #d8defb,
+    #dfe5fb,
+    #e7ecfa,
+    #ecf0fa,
+    #f1f3fa,
+    #f6f7fa,
+    #f8f9fb,
+    #fbfbfc,
+    #fdfdfe,
+    #ffffff
+  );
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+
+  align-items: center;
+}
+.login-card {
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.loginPage {
+  border: solid black 5px;
+}
+.login-select {
+  display: flex;
+  justify-content: space-between;
+}
+.login-select * {
+  width: 48%;
+  height: 30px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.main-heading {
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.login-card button {
+  border: none;
+  font-family: "Raleway", sans-serif;
+  /* padding: 10px; */
+}
+.login-btn {
+  color: white;
+  background-color: #1875ff;
+  margin-left: 20%;
+  margin-top: 20px;
+  padding: 10px 80px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+.login-card label {
+  font-size: 17px;
+}
+.login-card input {
+  width: 280px;
+  height: 24px;
+  border: none;
+  background-color: rgb(245, 244, 244);
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.login-card a {
+  font-size: 15px;
+  text-decoration: none;
+}
